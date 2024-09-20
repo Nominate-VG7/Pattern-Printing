@@ -3,15 +3,14 @@ int main(){
     int r;
     printf("enter the number of rows: ");
     scanf("%d",&r);
-    int c;
-    printf("enter the number of column: ");
-    scanf("%d",&c);
+    // printf("enter the number of column: ");
+    // scanf("%d",&c);
 
-    for(int i=1;i<=r;i++){
-        for(int j=1;j<=c;j++){
+    for(int i=1;i<=r;r--){
+        for(int j=1;j<=r;j++){
             printf("*");
         }
-        printf("\n");
+        printf("\n");        
     }
     return 0;
 }
